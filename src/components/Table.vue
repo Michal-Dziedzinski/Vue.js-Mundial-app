@@ -5,15 +5,16 @@
         <th scope="col">Numer meczu</th>
         <th scope="col">Drużyna 1</th>
         <th scope="col">Drużyna 2</th>
-        <!-- <th scope="col">Last</th> -->
+        <th scope="col">Wynik</th>
         <!-- <th scope="col">Handle</th> -->
       </tr>
     </thead>
     <tbody>
       <tr v-for="play in plays">
         <td scope="row">{{play.id}}</td>
-        <td>{{play.team_1}}</td>
-        <td>{{play.team_2}}</td>
+        <td :class="{'cell--green' : (play.score==1)}">{{play.team_1}}</td>
+        <td :class="{'cell--green' : (play.score==2)}">{{play.team_2}}</td>
+        <td>{{play.score}}</td>
       </tr>
       <!-- <tr>
           <th scope="row">2</th>
@@ -35,7 +36,7 @@
   import axios from "axios";
 
   export default {
-    name: 'HelloWorld',
+    name: 'Table',
     data() {
       return {
         plays: []
@@ -56,4 +57,10 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
   @import "../assets/scss/main.scss";
+
+  .cell{
+    &--green{
+      background-color: $color-green;
+    }
+  }
 </style>

@@ -6,7 +6,17 @@
             "team_2": "Arabia Saudyjska",
             "score": 1,
             "goals_1": 5,
-            "goals_2": 0
+            "goals_2": 0,
+            "user_1": 1,
+            "user_2": 1,
+            "user_3": 1,
+            "user_4": 1,
+            "user_5": 1,
+            "user_6": 1,
+            "user_7": 0,
+            "user_8": 1,
+            "user_9": 1,
+            "user_10": 1
         },
         {
             "id": 2,
@@ -14,7 +24,17 @@
             "team_2": "Urugwaj",
             "score": 2,
             "goals_1": 0,
-            "goals_2": 1
+            "goals_2": 1,
+            "user_1": 2,
+            "user_2": 2,
+            "user_3": 2,
+            "user_4": 2,
+            "user_5": 2,
+            "user_6": 0,
+            "user_7": 2,
+            "user_8": 2,
+            "user_9": 2,
+            "user_10":0
         },
         {
             "id": 3,
@@ -22,7 +42,17 @@
             "team_2": "Hiszpania",
             "score": 0,
             "goals_1": 3,
-            "goals_2": 3
+            "goals_2": 3,
+            "user_1": 1,
+            "user_2": 2,
+            "user_3": 1,
+            "user_4": 2,
+            "user_5": 0,
+            "user_6": 2,
+            "user_7": 2,
+            "user_8": 2,
+            "user_9": 0,
+            "user_10": 2
         }
     ]
 }
