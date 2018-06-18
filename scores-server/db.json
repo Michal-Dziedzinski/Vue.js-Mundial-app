@@ -1,0 +1,28 @@
+{
+    "matches": [
+        {
+            "id": 1,
+            "team_1": "Rosja",
+            "team_2": "Arabia Saudyjska",
+            "score": 1,
+            "goals_1": 5,
+            "goals_2": 0
+        },
+        {
+            "id": 2,
+            "team_1": "Egipt",
+            "team_2": "Urugwaj",
+            "score": 2,
+            "goals_1": 0,
+            "goals_2": 1
+        },
+        {
+            "id": 3,
+            "team_1": "Portugalia",
+            "team_2": "Hiszpania",
+            "score": 0,
+            "goals_1": 3,
+            "goals_2": 3
+        }
+    ]
+}
