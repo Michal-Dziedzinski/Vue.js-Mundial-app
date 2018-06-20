@@ -6,15 +6,19 @@
         <th scope="col">Drużyna 1</th>
         <th scope="col">Drużyna 2</th>
         <th scope="col">Wynik</th>
-        <!-- <th scope="col">Handle</th> -->
+        <th scope="col" v-for="user in users">{{user.name}}</th>
+        <!-- <th></th> -->
       </tr>
     </thead>
     <tbody>
-      <tr v-for="play in plays">
-        <td scope="row">{{play.id}}</td>
+      <tr v-for="(play, index) in plays">
+        <td scope="row" :class="{'cell--blue' : (play.id==19)}">{{play.id}}</td>
         <td :class="{'cell--green' : (play.score==1)}">{{play.team_1}}</td>
         <td :class="{'cell--green' : (play.score==2)}">{{play.team_2}}</td>
         <td>{{play.score}}</td>
+        <td v-for="user in users" :class="{'cell--green' : (play.score==user[`match_${index+1}`])}">{{user[`match_${index+1}`]}}</td>
+        <!-- <td>{{users[1].match_2}}</td>
+        <td>{{users[2].match_3}}</td> -->
       </tr>
       <!-- <tr>
           <th scope="row">2</th>
@@ -39,7 +43,9 @@
     name: 'Table',
     data() {
       return {
-        plays: []
+        plays: [],
+        users: [],
+        index: 0
       }
     },
     created() {
@@ -50,7 +56,15 @@
         .catch(e => {
           this.errors.push(e)
         })
+      axios.get("http://localhost:3000/users")
+        .then(response => {
+          this.users = response.data;
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
     }
+    
   }
 </script>
 
@@ -61,6 +75,9 @@
   .cell{
     &--green{
       background-color: $color-green;
+    }
+    &--blue{
+      background-color: $color-blue;
     }
   }
 </style>
