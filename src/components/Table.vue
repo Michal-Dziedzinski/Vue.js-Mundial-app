@@ -11,27 +11,14 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="(play, index) in plays">
-        <td scope="row" :class="{'cell--blue' : (play.id==19)}">{{play.id}}</td>
+      <tr v-for="(play, index1) in plays">
+        <td scope="row" :class="{'cell--blue' : (play.id==21)}">{{play.id}}</td>
         <td :class="{'cell--green' : (play.score==1)}">{{play.team_1}}</td>
         <td :class="{'cell--green' : (play.score==2)}">{{play.team_2}}</td>
         <td>{{play.score}}</td>
-        <td v-for="user in users" :class="{'cell--green' : (play.score==user[`match_${index+1}`])}">{{user[`match_${index+1}`]}}</td>
-        <!-- <td>{{users[1].match_2}}</td>
-        <td>{{users[2].match_3}}</td> -->
+        <td v-for="(user, index2) in users" :class="{'cell--green' : (play.score==user[`match_${index1+1}`])}">{{user[`match_${index1+1}`]}}</td>
+        <td>{{counting}}</td>
       </tr>
-      <!-- <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
-        </tr> -->
     </tbody>
   </table>
 </template>
@@ -45,7 +32,8 @@
       return {
         plays: [],
         users: [],
-        index: 0
+        index: 0,
+        sum: []
       }
     },
     created() {
@@ -64,6 +52,16 @@
           this.errors.push(e)
         })
     }
+    // computed: {
+    //   counting: function(index1, index2){
+    //     for(let i=0; i<this.plays.length; i++){
+    //        for(let j=0; j<this.users.length; j++){
+    //         this.plays[i].score==this.users[j].match_${i};
+    //        }
+    //     }
+    //     console.log(this.plays[i].score);
+    //   }
+    // }
     
   }
 </script>
