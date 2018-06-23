@@ -56,7 +56,7 @@
       counting: function (index1, index2) {
         for (let i = 0; i < this.users.length; i++) {
           for (let j = 0; j < this.plays.length; j++) {
-            // if (this.plays[i].score == this.users[j]+`.match_${i+1}`) {
+            // if (this.plays[j].score == this.users[i]+`.match_${j+1}`) {
             //   console.log('siema');
             // }
             let text = `match_${i+1}`;
