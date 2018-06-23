@@ -51,18 +51,22 @@
         .catch(e => {
           this.errors.push(e)
         })
+    },
+    computed: {
+      counting: function (index1, index2) {
+        for (let i = 0; i < this.users.length; i++) {
+          for (let j = 0; j < this.plays.length; j++) {
+            // if (this.plays[i].score == this.users[j]+`.match_${i+1}`) {
+            //   console.log('siema');
+            // }
+            let text = `match_${i+1}`;
+            obj = JSON.parse(text);
+            console.log(eval(this.users[j].obj));
+          }
+          // console.log(this.plays[i].score);
+        }
+      }
     }
-    // computed: {
-    //   counting: function(index1, index2){
-    //     for(let i=0; i<this.plays.length; i++){
-    //        for(let j=0; j<this.users.length; j++){
-    //         this.plays[i].score==this.users[j].match_${i};
-    //        }
-    //     }
-    //     console.log(this.plays[i].score);
-    //   }
-    // }
-    
   }
 </script>
 
@@ -70,11 +74,11 @@
 <style lang="scss">
   @import "../assets/scss/main.scss";
 
-  .cell{
-    &--green{
+  .cell {
+    &--green {
       background-color: $color-green;
     }
-    &--blue{
+    &--blue {
       background-color: $color-blue;
     }
   }
