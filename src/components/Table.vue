@@ -7,17 +7,19 @@
         <th scope="col">Drużyna 2</th>
         <th scope="col">Wynik</th>
         <th scope="col" v-for="user in users">{{user.name}}</th>
-        <!-- <th></th> -->
       </tr>
     </thead>
     <tbody>
-      <tr v-for="(play, index1) in plays">
-        <td scope="row" :class="{'cell--blue' : (play.id==21)}">{{play.id}}</td>
+      <tr v-for="(play, index) in plays">
+        <td scope="row">{{play.id}}</td>
         <td :class="{'cell--green' : (play.score==1)}">{{play.team_1}}</td>
         <td :class="{'cell--green' : (play.score==2)}">{{play.team_2}}</td>
-        <td>{{play.score}}</td>
-        <td v-for="(user, index2) in users" :class="{'cell--green' : (play.score==user[`match_${index1+1}`])}">{{user[`match_${index1+1}`]}}</td>
-        <td>{{counting}}</td>
+        <td class="bold">{{play.score}}</td>
+        <td v-for="user in users" :class="{'cell--green' : (play.score==user[`match_${index+1}`])}">{{user[`match_${index+1}`]}}</td>
+      </tr>
+      <tr class="cell--blue">
+        <td colspan="4">Suma:</td>
+        <td v-for="(user, index) in users">{{sumUp[index]}}</td>
       </tr>
     </tbody>
   </table>
@@ -32,8 +34,21 @@
       return {
         plays: [],
         users: [],
-        index: 0,
-        sum: []
+        sumUp: []
+      }
+    },
+    methods: {
+      counting: function () {
+        for (let i = 0; i < this.users.length; i++) {
+          let sum = 0;
+          for (let j = 0; j < this.plays.length; j++) {
+            if (this.plays[j].score === Number(this.users[i][`match_${j+1}`])) {
+              sum++;
+            }
+          }
+          this.sumUp[i] = sum;
+          console.log(this.sumUp[i]);
+        }
       }
     },
     created() {
@@ -47,25 +62,11 @@
       axios.get("http://localhost:3000/users")
         .then(response => {
           this.users = response.data;
+          this.counting();
         })
         .catch(e => {
           this.errors.push(e)
         })
-    },
-    computed: {
-      counting: function (index1, index2) {
-        for (let i = 0; i < this.users.length; i++) {
-          for (let j = 0; j < this.plays.length; j++) {
-            // if (this.plays[j].score == this.users[i]+`.match_${j+1}`) {
-            //   console.log('siema');
-            // }
-            let text = `match_${i+1}`;
-            obj = JSON.parse(text);
-            console.log(eval(this.users[j].obj));
-          }
-          // console.log(this.plays[i].score);
-        }
-      }
     }
   }
 </script>

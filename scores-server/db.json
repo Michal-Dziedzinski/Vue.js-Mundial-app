@@ -1,390 +1,341 @@
 {
-    "matches": [
-        {
-            "id": 1,
-            "team_1": "Rosja",
-            "team_2": "Arabia Saudyjska",
-            "score": 1,
-            "goals_1": 5,
-            "goals_2": 0
-        },
-        {
-            "id": 2,
-            "team_1": "Egipt",
-            "team_2": "Urugwaj",
-            "score": 2,
-            "goals_1": 0,
-            "goals_2": 1
-        },
-        {
-            "id": 3,
-            "team_1": "Portugalia",
-            "team_2": "Hiszpania",
-            "score": 0,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 4,
-            "team_1": "Maroko",
-            "team_2": "Iran",
-            "score": 2,
-            "goals_1": 0,
-            "goals_2": 1
-        },
-        {
-            "id": 5,
-            "team_1": "Francja",
-            "team_2": "Australia",
-            "score": 1,
-            "goals_1": 2,
-            "goals_2": 1
-        },
-        {
-            "id": 6,
-            "team_1": "Peru",
-            "team_2": "Dania",
-            "score": 2,
-            "goals_1": 0,
-            "goals_2": 1
-        },
-        {
-            "id": 7,
-            "team_1": "Argentyna",
-            "team_2": "Islandia",
-            "score": 0,
-            "goals_1": 1,
-            "goals_2": 1
-        },
-        {
-            "id": 8,
-            "team_1": "Chorwacja",
-            "team_2": "Nigeria",
-            "score": 1,
-            "goals_1": 2,
-            "goals_2": 0
-        },
-        {
-            "id": 9,
-            "team_1": "Brazylia",
-            "team_2": "Szwajcaria",
-            "score": 0,
-            "goals_1": 1,
-            "goals_2": 1
-        },
-        {
-            "id": 10,
-            "team_1": "Kostaryka",
-            "team_2": "Serbia",
-            "score": 2,
-            "goals_1": 0,
-            "goals_2": 1
-        },
-        {
-            "id": 11,
-            "team_1": "Niemcy",
-            "team_2": "Meksyk",
-            "score": 2,
-            "goals_1": 0,
-            "goals_2": 1
-        },
-        {
-            "id": 12,
-            "team_1": "Szwecja",
-            "team_2": "Korea Południowa",
-            "score": 1,
-            "goals_1": 1,
-            "goals_2": 0
-        },
-        {
-            "id": 13,
-            "team_1": "Belgia",
-            "team_2": "Panama",
-            "score": 1,
-            "goals_1": 3,
-            "goals_2": 0
-        },
-        {
-            "id": 14,
-            "team_1": "Tunezja",
-            "team_2": "Anglia",
-            "score": 2,
-            "goals_1": 1,
-            "goals_2": 2
-        },
-        {
-            "id": 15,
-            "team_1": "Polska",
-            "team_2": "Senegal",
-            "score": 2,
-            "goals_1": 1,
-            "goals_2": 2
-        },
-        {
-            "id": 16,
-            "team_1": "Kolumbia",
-            "team_2": "Japonia",
-            "score": 2,
-            "goals_1": 1,
-            "goals_2": 2
-        },
-        {
-            "id": 17,
-            "team_1": "Rosja",
-            "team_2": "Egipt",
-            "score": 1,
-            "goals_1": 3,
-            "goals_2": 1
-        },
-        {
-            "id": 18,
-            "team_1": "Urugwaj",
-            "team_2": "Arabia Saudyjska",
-            "score": 1,
-            "goals_1": 1,
-            "goals_2": 0
-        },
-        {
-            "id": 19,
-            "team_1": "Portugalia",
-            "team_2": "Maroko",
-            "score": 1,
-            "goals_1": 1,
-            "goals_2": 0
-        },
-        {
-            "id": 20,
-            "team_1": "Iran",
-            "team_2": "Hiszpania",
-            "score": 2,
-            "goals_1": 0,
-            "goals_2": 1
-        },
-        {
-            "id": 21,
-            "team_1": "Francja",
-            "team_2": "Peru",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 22,
-            "team_1": "Dania",
-            "team_2": "Australia",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 23,
-            "team_1": "Argentyna",
-            "team_2": "Chorwacja",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 24,
-            "team_1": "Nigeria",
-            "team_2": "Islandia",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 25,
-            "team_1": "Brazylia",
-            "team_2": "Kostaryka",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 26,
-            "team_1": "Serbia",
-            "team_2": "Szwajcaria",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 27,
-            "team_1": "Niemcy",
-            "team_2": "Szwecja",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 28,
-            "team_1": "Korea Południowa",
-            "team_2": "Meksyk",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 29,
-            "team_1": "Belgia",
-            "team_2": "Tunezja",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 30,
-            "team_1": "Panama",
-            "team_2": "Anglia",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 31,
-            "team_1": "Polska",
-            "team_2": "Kolumbia",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 32,
-            "team_1": "Japonia",
-            "team_2": "Senegal",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 33,
-            "team_1": "Urugwaj",
-            "team_2": "Rosja",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 34,
-            "team_1": "Arabia Saudyjska",
-            "team_2": "Egipt",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 35,
-            "team_1": "Iran",
-            "team_2": "Portugalia",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 36,
-            "team_1": "Hiszpania",
-            "team_2": "Maroko",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 37,
-            "team_1": "Dania",
-            "team_2": "Francja",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 38,
-            "team_1": "Australia",
-            "team_2": "Peru",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 39,
-            "team_1": "Nigeria",
-            "team_2": "Argentyna",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 40,
-            "team_1": "Islandia",
-            "team_2": "Chorwacja",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 41,
-            "team_1": "Serbia",
-            "team_2": "Brazylia",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 42,
-            "team_1": "Szwajcaria",
-            "team_2": "Kostaryka",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 43,
-            "team_1": "Korea",
-            "team_2": "Niemcy",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 44,
-            "team_1": "Meksyk",
-            "team_2": "Szwecja",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 45,
-            "team_1": "Panama",
-            "team_2": "Tunezja",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 46,
-            "team_1": "Anglia",
-            "team_2": "Belgia",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 47,
-            "team_1": "Japonia",
-            "team_2": "Polska",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        },
-        {
-            "id": 48,
-            "team_1": "Senegal",
-            "team_2": "Kolumbia",
-            "score": 9,
-            "goals_1": 3,
-            "goals_2": 3
-        }
-    ],
+    "matches": [{
+        "id": 1,
+        "team_1": "Rosja",
+        "team_2": "Arabia Saudyjska",
+        "score": 1,
+        "goals_1": 5,
+        "goals_2": 0
+      }, {
+        "id": 2,
+        "team_1": "Egipt",
+        "team_2": "Urugwaj",
+        "score": 2,
+        "goals_1": 0,
+        "goals_2": 1
+      }, {
+        "id": 3,
+        "team_1": "Portugalia",
+        "team_2": "Hiszpania",
+        "score": 0,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 4,
+        "team_1": "Maroko",
+        "team_2": "Iran",
+        "score": 2,
+        "goals_1": 0,
+        "goals_2": 1
+      }, {
+        "id": 5,
+        "team_1": "Francja",
+        "team_2": "Australia",
+        "score": 1,
+        "goals_1": 2,
+        "goals_2": 1
+      }, {
+        "id": 6,
+        "team_1": "Peru",
+        "team_2": "Dania",
+        "score": 2,
+        "goals_1": 0,
+        "goals_2": 1
+      }, {
+        "id": 7,
+        "team_1": "Argentyna",
+        "team_2": "Islandia",
+        "score": 0,
+        "goals_1": 1,
+        "goals_2": 1
+      }, {
+        "id": 8,
+        "team_1": "Chorwacja",
+        "team_2": "Nigeria",
+        "score": 1,
+        "goals_1": 2,
+        "goals_2": 0
+      }, {
+        "id": 9,
+        "team_1": "Brazylia",
+        "team_2": "Szwajcaria",
+        "score": 0,
+        "goals_1": 1,
+        "goals_2": 1
+      }, {
+        "id": 10,
+        "team_1": "Kostaryka",
+        "team_2": "Serbia",
+        "score": 2,
+        "goals_1": 0,
+        "goals_2": 1
+      }, {
+        "id": 11,
+        "team_1": "Niemcy",
+        "team_2": "Meksyk",
+        "score": 2,
+        "goals_1": 0,
+        "goals_2": 1
+      }, {
+        "id": 12,
+        "team_1": "Szwecja",
+        "team_2": "Korea Południowa",
+        "score": 1,
+        "goals_1": 1,
+        "goals_2": 0
+      }, {
+        "id": 13,
+        "team_1": "Belgia",
+        "team_2": "Panama",
+        "score": 1,
+        "goals_1": 3,
+        "goals_2": 0
+      }, {
+        "id": 14,
+        "team_1": "Tunezja",
+        "team_2": "Anglia",
+        "score": 2,
+        "goals_1": 1,
+        "goals_2": 2
+      }, {
+        "id": 15,
+        "team_1": "Polska",
+        "team_2": "Senegal",
+        "score": 2,
+        "goals_1": 1,
+        "goals_2": 2
+      }, {
+        "id": 16,
+        "team_1": "Kolumbia",
+        "team_2": "Japonia",
+        "score": 2,
+        "goals_1": 1,
+        "goals_2": 2
+      }, {
+        "id": 17,
+        "team_1": "Rosja",
+        "team_2": "Egipt",
+        "score": 1,
+        "goals_1": 3,
+        "goals_2": 1
+      }, {
+        "id": 18,
+        "team_1": "Urugwaj",
+        "team_2": "Arabia Saudyjska",
+        "score": 1,
+        "goals_1": 1,
+        "goals_2": 0
+      }, {
+        "id": 19,
+        "team_1": "Portugalia",
+        "team_2": "Maroko",
+        "score": 1,
+        "goals_1": 1,
+        "goals_2": 0
+      }, {
+        "id": 20,
+        "team_1": "Iran",
+        "team_2": "Hiszpania",
+        "score": 2,
+        "goals_1": 0,
+        "goals_2": 1
+      }, {
+        "id": 21,
+        "team_1": "Francja",
+        "team_2": "Peru",
+        "score": 1,
+        "goals_1": 1,
+        "goals_2": 0
+      }, {
+        "id": 22,
+        "team_1": "Dania",
+        "team_2": "Australia",
+        "score": 0,
+        "goals_1": 1,
+        "goals_2": 1
+      }, {
+        "id": 23,
+        "team_1": "Argentyna",
+        "team_2": "Chorwacja",
+        "score": 2,
+        "goals_1": 0,
+        "goals_2": 3
+      }, {
+        "id": 24,
+        "team_1": "Nigeria",
+        "team_2": "Islandia",
+        "score": 1,
+        "goals_1": 2,
+        "goals_2": 0
+      }, {
+        "id": 25,
+        "team_1": "Brazylia",
+        "team_2": "Kostaryka",
+        "score": 1,
+        "goals_1": 2,
+        "goals_2": 0
+      }, {
+        "id": 26,
+        "team_1": "Serbia",
+        "team_2": "Szwajcaria",
+        "score": 2,
+        "goals_1": 1,
+        "goals_2": 2
+      }, {
+        "id": 27,
+        "team_1": "Niemcy",
+        "team_2": "Szwecja",
+        "score": 1,
+        "goals_1": 2,
+        "goals_2": 1
+      }, {
+        "id": 28,
+        "team_1": "Korea Południowa",
+        "team_2": "Meksyk",
+        "score": 2,
+        "goals_1": 1,
+        "goals_2": 2
+      }, {
+        "id": 29,
+        "team_1": "Belgia",
+        "team_2": "Tunezja",
+        "score": 1,
+        "goals_1": 5,
+        "goals_2": 2
+      }, {
+        "id": 30,
+        "team_1": "Panama",
+        "team_2": "Anglia",
+        "score": 2,
+        "goals_1": 0,
+        "goals_2": 6
+      }, {
+        "id": 31,
+        "team_1": "Polska",
+        "team_2": "Kolumbia",
+        "score": 2,
+        "goals_1": 0,
+        "goals_2": 3
+      }, {
+        "id": 32,
+        "team_1": "Japonia",
+        "team_2": "Senegal",
+        "score": 0,
+        "goals_1": 2,
+        "goals_2": 2
+      }, {
+        "id": 33,
+        "team_1": "Urugwaj",
+        "team_2": "Rosja",
+        "score": 1,
+        "goals_1": 3,
+        "goals_2": 0
+      }, {
+        "id": 34,
+        "team_1": "Arabia Saudyjska",
+        "team_2": "Egipt",
+        "score": 1,
+        "goals_1": 2,
+        "goals_2": 1
+      }, {
+        "id": 35,
+        "team_1": "Iran",
+        "team_2": "Portugalia",
+        "score": 0,
+        "goals_1": 1,
+        "goals_2": 1
+      }, {
+        "id": 36,
+        "team_1": "Hiszpania",
+        "team_2": "Maroko",
+        "score": 0,
+        "goals_1": 2,
+        "goals_2": 2
+      }, {
+        "id": 37,
+        "team_1": "Dania",
+        "team_2": "Francja",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 38,
+        "team_1": "Australia",
+        "team_2": "Peru",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 39,
+        "team_1": "Nigeria",
+        "team_2": "Argentyna",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 40,
+        "team_1": "Islandia",
+        "team_2": "Chorwacja",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 41,
+        "team_1": "Serbia",
+        "team_2": "Brazylia",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 42,
+        "team_1": "Szwajcaria",
+        "team_2": "Kostaryka",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 43,
+        "team_1": "Korea",
+        "team_2": "Niemcy",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 44,
+        "team_1": "Meksyk",
+        "team_2": "Szwecja",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 45,
+        "team_1": "Panama",
+        "team_2": "Tunezja",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 46,
+        "team_1": "Anglia",
+        "team_2": "Belgia",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 47,
+        "team_1": "Japonia",
+        "team_2": "Polska",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }, {
+        "id": 48,
+        "team_1": "Senegal",
+        "team_2": "Kolumbia",
+        "score": 9,
+        "goals_1": 3,
+        "goals_2": 3
+      }],
     "users":[
         {
             "user_id": "1",
